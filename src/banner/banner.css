@@ -1,0 +1,55 @@
+
+.banner__item{
+    position: relative;
+    z-index: 2;
+    padding: .75rem;
+}
+
+.banner__image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner__content{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.tr-right{
+    bottom: auto;
+    top: 40px;
+    right: 90px;
+    left: auto;
+}
+
+.tl-left{
+    left: 40px;
+    right: auto;
+    top: 40px;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.banner__content h3{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:768px){
+    .banner__content h3{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .banner__content h3{
+        font-size: 22px;
+    }
+}

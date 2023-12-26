@@ -1,0 +1,22 @@
+.backToTop{
+    border-radius: 50px;
+    padding-bottom: 70px;
+}
+
+@media only screen and (max-width:768px){
+    .backToTop{
+        border-radius: 50px;
+        padding-bottom: 70px;
+        right: 30px !important;
+        bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .backToTop{
+        border-radius: 50px;
+        padding-bottom: 70px;
+        right: 20px !important;
+        bottom: 30px !important;
+    }
+}
